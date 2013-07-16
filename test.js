@@ -1,6 +1,7 @@
 var test = require('tape');
 var encode = require('./').encode;
 var decode = require('./').decode;
+var each = require('foreach');
 
 var examples = {
   'pos lat, pos lon': { lat: 10.3, lon: 25.2 },
@@ -9,9 +10,8 @@ var examples = {
   'neg lat, neg lon': { lat: -9.3, lon: -1.1 }
 };
 
-Object.keys(examples).forEach(function (name) {
+each(examples, function (example, name) {
   test(name, function (t) {
-    var example = examples[name];
     var lat = example.lat;
     var lon = example.lon;
     var low = decode(encode(lat, lon));
