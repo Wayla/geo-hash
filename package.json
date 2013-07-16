@@ -1,25 +1,48 @@
 {
-  "name" : "geo-hash",
-  "description" : "Encode/Decode geohashes.",
-  "version" : "0.0.0",
-  "repository" : {
-    "type" : "git",
-    "url" : "git://github.com/Wayla/geo-hash.git"
+  "name": "geo-hash",
+  "description": "Encode/Decode geohashes.",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Wayla/geo-hash.git"
   },
   "homepage": "https://github.com/Wayla/geo-hash",
-  "main" : "index.js",
-  "scripts" : {
-    "test" : "tape test.js"
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
   },
-  "dependencies" : {},
-  "devDependencies" : {
-    "tape" : "*"
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "*"
   },
-  "keywords": ["geo","hash","geohash","location","position","geolocation"],
+  "keywords": [
+    "geo",
+    "hash",
+    "geohash",
+    "location",
+    "position",
+    "geolocation"
+  ],
   "author": {
     "name": "Julian Gruber",
-    "email": "mail@wayla.com",
+    "email": "julian@wayla.com",
     "url": "http://wayla.com"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "testling": {
+    "files": "test.js",
+    "browsers": [
+      "ie/8..latest",
+      "firefox/17..latest",
+      "firefox/nightly",
+      "chrome/22..latest",
+      "chrome/canary",
+      "opera/12..latest",
+      "opera/next",
+      "safari/5.1..latest",
+      "ipad/6.0..latest",
+      "iphone/6.0..latest",
+      "android-browser/4.2..latest"
+    ]
+  }
 }
