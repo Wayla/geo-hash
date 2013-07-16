@@ -3,6 +3,8 @@
 
 Decode/Encode [geohashes](http://en.wikipedia.org/wiki/Geohash).
 
+[![build status](https://secure.travis-ci.org/Wayla/geo-hash.png)](http://travis-ci.org/Wayla/geo-hash)
+
 ## Usage
 
 ```js
