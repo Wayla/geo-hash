@@ -6,7 +6,7 @@ Decode/Encode [geohashes](http://en.wikipedia.org/wiki/Geohash).
 ## Usage
 
 ```js
-var geo = require('geo-has');
+var geo = require('geo-hash');
 
 var hash = geo.encode(10.3, -2.4);
 // => 'ecy697h3ggnm'
