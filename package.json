@@ -4,9 +4,9 @@
   "version" : "0.0.0",
   "repository" : {
     "type" : "git",
-    "url" : "git://github.com/juliangruber/geo-hash.git"
+    "url" : "git://github.com/Wayla/geo-hash.git"
   },
-  "homepage": "https://github.com/juliangruber/geo-hash",
+  "homepage": "https://github.com/Wayla/geo-hash",
   "main" : "index.js",
   "scripts" : {
     "test" : "tape test.js"
@@ -18,8 +18,8 @@
   "keywords": ["geo","hash","geohash","location","position","geolocation"],
   "author": {
     "name": "Julian Gruber",
-    "email": "mail@juliangruber.com",
-    "url": "http://juliangruber.com"
+    "email": "mail@wayla.com",
+    "url": "http://wayla.com"
   },
   "license": "MIT"
 }
