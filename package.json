@@ -1,7 +1,7 @@
 {
   "name": "geo-hash",
   "description": "Encode/Decode geohashes.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "git://github.com/Wayla/geo-hash.git"
@@ -11,7 +11,9 @@
   "scripts": {
     "test": "tape test.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "sortable-hash": "0.0.0"
+  },
   "devDependencies": {
     "tape": "*",
     "foreach": "~2.0.3"
